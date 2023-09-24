@@ -1,0 +1,30 @@
+body
+{
+  background-color: grey;
+}
+h1
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h2
+{
+  text-align: center;
+}
+.HeaderTable
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-spacing: 10px
+}
+a:link
+{
+  color:white;
+}
+a:visited
+{
+  color:white;
+}
