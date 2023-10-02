@@ -1,8 +1,22 @@
+<!--
+Name: Nicolaas Dyk
+Date: 09/19/23
+Desc: Site with seperate pages to display
+      information about CIS classes at MCCC
+-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>MCCC Computer Science Program</title>
+
+    <style media="screen">
+      th,td
+      {
+        padding-right: 40px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <h1>
@@ -11,8 +25,9 @@
     <table class = "HeaderTable">
       <tr>
         <td><a href="index.html">Home Page</td>
-        <td>CIS 150</td>
+        <td><a href="CIS150.html">CIS 150</td>
         <td>CIS 250</td>
+        <td>CIS 153</td>
         <td>CIS 183</td>
         <td>CIS 212</td>
         <td>CIS 267</td>
@@ -24,7 +39,35 @@
     <br>
     <br>
     <p>
-
+      Monroe County Community College has several required classes for the Computer Science program.
+      <br>
+      Here is information about each individual class.
     </p>
+    <br>
+    <table>
+      <tr>
+        <th>Fall Year 1</th>
+        <th>Winter Year 1</th>
+        <th>Fall Year 2</th>
+      </tr>
+
+      <tr>
+        <td><a href="CIS150.html">CIS150</td>
+        <td>CIS250</td>
+        <td>CIS183</td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td>CIS153</td>
+        <td>CIS212</td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td>CIS267</td>
+      </tr>
+    </table>
   </body>
 </html>
